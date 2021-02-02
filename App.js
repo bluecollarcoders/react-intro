@@ -3,6 +3,8 @@ const App = () => {
         <div>
             <Alert>
                 <RandomChoice choices={['red', 'green', 'yellow']}/>
+                <RandomRange min={40} max={100} />
+                <RandomRange />
             <Animal name="Pearl" species="dog" emoji="🐶" isCute={true}/>
             <Animal name="Chauncy" species="cat" emoji="🐱" isCute={false}/>
             <RandomNum />
